@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const apiRoot = 'http://mighty-forest-97096.herokuapp.com/v1/task/';
+  const apiRoot = 'http://localhost:8080/v1/trello/';
   
   const trelloApiRoot = 'http://mighty-forest-97096.herokuapp.com/v1/task/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
